@@ -44,7 +44,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>click</Title>
+        <Title>Clicky-Game</Title>
         {this.state.friends.map(friend => (
           <FriendCard
             clickFriend={this.clickFriend}
