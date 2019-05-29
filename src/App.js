@@ -14,7 +14,7 @@ class App extends Component {
   clickFriend = id => {
     console.log(id);
     let didLose = false;
-    // Filter this.state.friends for friends with an id not equal to the id being removed
+  
     const friends = this.state.friends.map(friend => {
 
       if(id === friend.id){
